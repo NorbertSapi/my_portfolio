@@ -169,4 +169,131 @@
       height: 100%;
     }
   }
+
+  /* BANNER */
+
+  h1 {
+    color: rgb(196, 76, 28);
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
   
+  #h1_hello {
+    color: rgb(87, 87, 87);
+    font-size: 1.5rem;
+  }
+  
+  #h1_main,
+  #h1_hello,
+  .h1_h3 {
+    margin-right: auto;
+    margin-left: 40%;
+    float: left;
+  }
+  
+  .one {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);
+    position: relative;
+    z-index: -1;
+  }
+  .img_me{
+    margin: 2rem;
+    position: absolute;
+    z-index: 9;
+    padding: 5px;
+    /*MEDIA QUARY 150PX*/
+  }
+
+  .img_me img{
+    border-radius: 45%;
+    width:100px;
+    height:auto;
+  }
+
+  .h1_h3{
+    font-size: 1rem;
+  }
+  
+  #h1_h3_mobile{
+    display: block;
+  }
+
+  #h1_h3{
+    display: none;
+  }
+
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
+  
+  .h2_tittle {
+    color: black;
+    float: right;
+    background-color: rgb(228, 120, 186);
+    margin-top: 2rem;
+  }
+  
+  h3{
+    font-size: 1.5rem;
+  }
+  
+  p {
+    text-align: justify;
+    margin: 0.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+
+  #my_name {
+    padding: 2rem 0;
+  }
+
+  @media only screen and (min-width: 600px)  {
+    .img_me img{
+      width: 150px;
+      height: auto;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    #h1_hello {
+      font-size: 2.5rem;
+    }
+    .h1_h3{
+      font-size: 1.5rem;
+    }
+
+    #h1_h3_mobile {
+      display: none;
+    }
+
+    #h1_main,
+    #h1_hello,
+    .h1_h3 {
+      text-align:center;
+      margin-right: auto;
+      margin-left: 30%;
+      float: left;
+    }
+
+    #h1_h3{
+      display: block;
+    }
+  }
+
+  /* HOME BUTTON */
+
+  .home {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 25px 0 0 25px;
+  }

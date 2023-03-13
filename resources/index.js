@@ -18,8 +18,13 @@ navbarMenu.addEventListener("click", toggleNavbarVisibility);
 
 
 
-// Enlarge my chess cake image
+// my chess cake image
 
+/*$('.change-hover').hover(function () {
+  $(this).find('img').hide().last().fadeIn();
+}, function () {
+  $(this).find('img').hide().first().fadeIn();
+});
 
 function originalImg() {
   $("#chess").attr('src', './resources/gallery/originalIMG.jpg');
@@ -27,6 +32,12 @@ function originalImg() {
 
 function cakeImg() {
   $("#chess").attr('src', './resources/gallery/chessboard.jpg');
+}
+*/
+
+function mouseRollover( imageId, imageSrc ) {
+  let image = document.getElementById( imageId );
+  image.src = imageSrc;
 }
 
 // Daily Fortune 

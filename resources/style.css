@@ -432,7 +432,6 @@ h4{
 
 .container2{
   background: linear-gradient(to bottom right, rgb(10, 68, 143), rgb(212, 220, 221));
-  /*display: inline-block;*/
   width: 100%;
 }
 
@@ -441,13 +440,7 @@ h4{
   text-decoration: underline overline red 5px;
 }
 
-  /******** List for the work element ******
-
-  ul, 
-  li{
-    margin: 5px;
-    padding: 5px;
-  }*/
+  /******** List for the work element ******/
 
 
   #work_list {

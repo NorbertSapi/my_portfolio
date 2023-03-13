@@ -15,8 +15,26 @@
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    color: white;
+  }
+
+  img {
+    float: left;
+    width: 100px;
   }
   
+  /*media quary */
+  @media only screen and (min-width: 600px)  {
+    img{width: 150px;}
+  }
+
+  #ns{
+    width: 60px;
+    height: 60px;
+  }
+
   /* Navigation */
   
   .container {
@@ -192,7 +210,7 @@
   }
   
   .one {
-    margin: 2rem auto;
+    margin: 2rem auto 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -206,13 +224,13 @@
     position: absolute;
     z-index: 9;
     padding: 5px;
-    /*MEDIA QUARY 150PX*/
   }
 
   .img_me img{
     border-radius: 45%;
-    width:100px;
-    height:auto;
+    width: 100px;
+    height: auto;
+    margin: 0.2rem 0;
   }
 
   .h1_h3{
@@ -232,12 +250,17 @@
     font-size: 2rem;
   }
   
+  /* TITTLE FOR THE SECTIONS*/
   .h2_tittle {
     color: black;
     float: right;
     background-color: rgb(228, 120, 186);
     margin-top: 2rem;
+    margin: 0;
+    font-size: 1rem;
   }
+
+
   
   h3{
     font-size: 1.5rem;
@@ -258,6 +281,7 @@
     .img_me img{
       width: 150px;
       height: auto;
+      margin: 1.5rem 0;
     }
     h1 {
       font-size: 4rem;
@@ -285,6 +309,10 @@
     #h1_h3{
       display: block;
     }
+
+    .h2_tittle {
+      font-size: 2rem;
+    }
   }
 
   /* HOME BUTTON */
@@ -305,3 +333,100 @@
       padding: 20px;
     }
   }
+
+  /* ABOUT SECTION */
+
+  #container_about{
+    background-color: rgb(236, 235, 165);
+    min-height: 6rem;
+    min-width: 100%;
+  }
+
+  .visiblity__button {
+    text-align: left;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: 40%;
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .about_text {
+    border: 3px solid yellow ;
+  }
+  
+  #green {
+    color: #1DBF73;
+  }
+  
+  #blue{
+    color: blue;
+  }
+
+  @media only screen and (min-width: 700px) {
+    .visiblity__button{
+      font-size: 2rem;
+    }
+  }
+
+  .unvisible__text {
+    display:block;
+  }
+
+  @media only screen and (min-width: 600px)  {
+    .unvisible__text {
+      display: none;
+      padding: 1rem;
+    }
+    
+    .visiblity__button:hover + .unvisible__text {
+      display: flex;
+    } 
+  }
+
+/*********************************************************** PRINCIPLES ****************************************************************/
+
+.small_tag {
+  text-align: center;
+  padding: 0.25rem auto;
+}
+
+.content {
+  margin: 1rem 0;
+  border: 2px solid black;
+  width: 100%;
+  min-height: 250px;
+  padding: 1rem;
+}
+
+#cat_text{
+  margin: 10px auto 20px auto;
+  position: absolute;
+}
+
+.container_principles{
+  font-size: 0.8rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.chess{
+  font-size: 1rem;
+  margin: 2rem 1.5rem auto;
+}
+
+
+.cat {
+  float: left;
+  width: 30%;
+  margin: 20px auto;
+  padding: 2rem;
+}
+
+.life{
+  display: flex;
+}
+
+h4{
+  color: black;
+}

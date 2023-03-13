@@ -11,7 +11,7 @@
     <header id="navbar">
       <nav class="navbar-container container">
         <a href="./index.html" class="home-link">
-            <img src="./resources/gallery/ns.jpg" alt="Norbert Sapi Logo" width="60px" height="62px" border-radius="60px">
+            <img id="ns" src="./resources/gallery/ns.jpg" alt="Norbert Sapi Logo">
             Norbert Sapi
         </a>
         <button
@@ -27,9 +27,9 @@
         </button>
         <div id="navbar-menu" aria-labelledby="navbar-toggle">
           <ul class="navbar-links">
-            <li class="navbar-item"><a class="navbar-link" href="../index.html">HOME</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/about">ABOUT</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="/principles">PRINCIPLES</a></li>
+            <li class="navbar-item" id="home"><a class="navbar-link" href="../index.html">HOME</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#container_about">ABOUT</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#principles">PRINCIPLES</a></li>
             <li class="navbar-item"><a class="navbar-link" href="/project">PROJECTS</a></li>
             <li class="navbar-item"><a class="navbar-link" href="/skills">SKILLS</a></li>
             <li class="navbar-item"><a class="navbar-link" href="#contact">CONTACT</a></li>
@@ -55,6 +55,45 @@
         <h3 class="home">HOME</h3>
       </a>
   
+    <!--ABOUT Section-->
+    <div class="container" id="container_about">
+      <h2 class="h2_tittle">ABOUT</h2>
+      <div id="container1">
+        <h3 class="visiblity__button">Web Developer</h3>
+          <p class="unvisible__text" id="blue">I love coding, this is my main hobby. I started programming in Java SE 8, learnt about computer science on the trainig room's website. I tried IntelliJ for java which helped me later to understand PyCharm better. I read a book about Python, and downloaded PyCharm and dived into it. I saw codecademy online, and sign up for the Full-Stack Engineer course. I am not a designer, but I learnt a lot since I have started this course. If you like to see some of my work, please select the Work Section from the navigation bar.</p>    
+        <h3 class="visiblity__button">Personal</h3>
+          <p  class="unvisible__text" id="green">I was born and raised in Hungary. I moved to England in 2015. I live in part of Leighton Buzzard with family. I have two daughters and two fur babies a black cat called Kathy and a dog Ace. In my spare time I love to play with my kids or watching a film and mainly I enjoy working on my computer and learn new things about programming.</p>
+      </div>
+    </div>
+
+    
+    <!--Great Design Section-->
+    <div class="container_principles" id="principles">
+      <h2 class="h2_tittle">PRINCIPLES</h2>
+      <div id="cat_text">Hover over the image to see the inspo game <br> set of the birthday cake I made for my friend.</div>
+      <div class="content">
+        <img class="cat" id="cat" onmouseover='cat.src="./resources/gallery/originalIMG.jpg"' onmouseout='cat.src="./resources/gallery/chess_cake.jpg"' src='./resources/gallery/chess_cake.jpg' alt="chessboard" style="min-width:200px; height:auto; max-width: 250px;"/>
+                
+
+        <h3 class="chess">My Chess Design</h3>
+        <h4>Life Lessons From Chess: How Chess Is Related To Real Life Situations</h4>
+          <small class="small_tag">Check out the original full content <a href="https://herculeschess.com/life-lessons-from-chess/" target="_blank" rel="noopener noreferrer">By Andrew Hercules</a>.</small>
+          
+        <p class="life_lesson">"Learning the rules of chess is simple but that alone will not help you win matches. For that you need strategy, and life is pretty much the same. In chess, you can have a brilliant strategy to beat your opponent but if they make moves you don’t want them to, it can all come crashing down to nothing. That’s why you need backup plans B and even C for when Plan A doesn’t work out. In chess, it’s called seeing the whole board; in life, it’s seeing the big picture. When you’re inexperienced you can be fixated on that one set of moves you’re making to win the game. But you’re so focused on them that you’ve missed something that’s staring you right in the face. You only see it once your opponent moves in and turns the tables on you. in life the most successful people are two steps ahead or well ahead of the game. They are organized, anticipate problems and have an idea of how to deal with them well before they occur. Of the many benefits chess has, one of the lesser expected ones is that it can actually make you more creative. In fact, it’s been shown to improve your thinking in both hemispheres of the brain and help you with logical and creative thinking at the same time."</p>
+      </div>
+
+      <div class="content">
+        <img class="cat" src="./resources/gallery/Kathy.jpg" alt="black cat" style="min-width:200px; height:auto; max-width: 250px;"/>
+        <h3 class="chess">My Cat Design</h3>
+        <h4>Life lessons to Learn from Your Cat</h4>
+          <small class="small_tag">Check out the original full content <a href="https://metropolitangirls.com/life-lessons-cat-wisdom/#:~:text=13%20Life%20Lessons%20to%20Learn%20from%20Your%20Cat,Be%20selective%20with%20your%20affection.%20...%20More%20items" target="_blank" rel="noopener noreferrer">By Metropolitan Girls</a>.</small>
+            
+            <!--use &#39; for apostrophe in text / <p> tag-->
+        <p class="life_lesson">"Live in the moment... treasure &#39;Now&#39; the most. Cats are gentle and extremely forgiving. But just as a reminder, forgive doesn&#39;t mean forgetting. Just because you don&#39;t hold grudges doesn&#39;t mean you should  let people walk all over you. Always be curious, you should explore  new areas  and knowledge in life with more zest. Practice mindfullness. Remember to have fun."</p>
+      </div>
+    </div>
+
+
 
     <script src="./resources/index.js">
     </script>

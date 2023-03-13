@@ -255,8 +255,7 @@
     color: black;
     float: right;
     background-color: rgb(228, 120, 186);
-    margin-top: 2rem;
-    margin: 0;
+    margin: 1rem 0;
     font-size: 1rem;
   }
 
@@ -429,4 +428,49 @@
 
 h4{
   color: black;
+}
+
+.container2{
+  background: linear-gradient(to bottom right, rgb(10, 68, 143), rgb(212, 220, 221));
+  /*display: inline-block;*/
+  width: 100%;
+}
+
+.name-of-language{
+  text-align: center;
+  text-decoration: underline overline red 5px;
+}
+
+  /******** List for the work element ******
+
+  ul, 
+  li{
+    margin: 5px;
+    padding: 5px;
+  }*/
+
+
+  #work_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    }
+  
+    li {
+    height: auto;
+    width: 90%;
+    list-style: none;
+    opacity: 1;
+    margin: 2rem 0.5rem;
+    }
+
+.work_img{
+  width: 60%;
+  height: auto;
 }

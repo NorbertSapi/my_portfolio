@@ -16,25 +16,7 @@ navbarToggle.addEventListener("click", toggleNavbarVisibility);
 navbarLinksContainer.addEventListener("click", (e) => e.stopPropagation());
 navbarMenu.addEventListener("click", toggleNavbarVisibility);
 
-
-
-// my chess cake image
-
-/*$('.change-hover').hover(function () {
-  $(this).find('img').hide().last().fadeIn();
-}, function () {
-  $(this).find('img').hide().first().fadeIn();
-});
-
-function originalImg() {
-  $("#chess").attr('src', './resources/gallery/originalIMG.jpg');
-}
-
-function cakeImg() {
-  $("#chess").attr('src', './resources/gallery/chessboard.jpg');
-}
-*/
-
+// Principles mouse over change the img
 function mouseRollover( imageId, imageSrc ) {
   let image = document.getElementById( imageId );
   image.src = imageSrc;

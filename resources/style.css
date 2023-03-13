@@ -467,3 +467,103 @@ h4{
   width: 60%;
   height: auto;
 }
+
+/**************************** Contact ******************************/
+  
+  
+  
+.contact_us {
+  background-color: powderblue;
+  width: 100%;
+  }
+  
+  .icon_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  width: 200px;
+  } 
+  
+  .image_icon{
+    max-width: 2rem;
+    height: auto;
+    padding: 2rem;
+  }
+  
+  
+  .ico{
+    width: 3rem;
+    height: auto;
+  }
+
+  @media only screen and (min-width: 600px)  {
+
+    .icon_main{
+      width: 90%;
+      margin: 1rem auto;
+      flex-direction: row;
+    }
+  }
+
+  /***********************************************Fortune******************************************/
+  
+  .fortune {
+    margin: 2rem auto;
+    background:#043f21;
+  }
+  
+  #fortune{
+    color: #EFBB24;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  #buttonContainer{
+    width: fit-content;
+    margin: auto;
+  }
+  
+  #fortuneButton{
+    padding: 2rem;
+    font-size: 16px;
+    background: white;
+    border: 5px solid #D0104C;
+    border-radius: 5px;
+    color: #141c3a;
+    cursor: pointer;
+  }
+  
+  #space {
+    margin: 3rem;
+  }
+
+  /*********************************************** Footer *********************************************/
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(93, 7, 110);
+    color: white;
+    width: 100%;
+    height: 60px;
+  }
+  
+  #author,
+  p #email,
+  p #mobile {
+    text-align: center;
+  }
+  
+  #email,
+  #mobile {
+  color: aqua;
+  }
+  

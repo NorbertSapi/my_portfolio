@@ -20,6 +20,7 @@ navbarMenu.addEventListener("click", toggleNavbarVisibility);
 
 // Enlarge my chess cake image
 
+
 function originalImg() {
   $("#chess").attr('src', './resources/gallery/originalIMG.jpg');
 }

@@ -520,8 +520,20 @@ h4{
   background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);
 }
 
-#roshambo{
-  color: #EFBB24;
+#winner{
+  /*color: #f0e98a;*/
+  
+  font-size: 24px;
+  text-align: center;
+}
+
+#player,
+#bot{
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  color: #141c3a;
   font-size: 24px;
   text-align: center;
 }

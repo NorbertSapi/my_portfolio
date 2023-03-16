@@ -471,6 +471,7 @@ h4{
 .work_img{
   width: 60%;
   height: auto;
+  cursor: pointer;
 }
 
 /**************************** Contact ******************************/
@@ -513,11 +514,34 @@ h4{
     }
   }
 
+/****************************************** Game - ROSHAMBO ****************************************/
+.roshambo {
+  margin: 2rem auto;
+  background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);
+}
+
+#roshambo{
+  color: #EFBB24;
+  font-size: 24px;
+  text-align: center;
+}
+
+#roshamboButton{
+  padding: 2rem;
+  font-size: 16px;
+  background: white;
+  border: 5px solid #D0104C;
+  border-radius: 5px;
+  color: #141c3a;
+  cursor: pointer;
+}
+
+
   /***********************************************Fortune******************************************/
   
   .fortune {
     margin: 2rem auto;
-    background:#043f21;
+    background: linear-gradient(to bottom right, rgb(0, 32, 13), rgb(49, 151, 8));
   }
   
   #fortune{

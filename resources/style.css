@@ -19,6 +19,11 @@
     text-align: center;
     color: white;
   }
+  
+  .body_contact {
+    background: linear-gradient(40deg, rgb(13, 78, 139), rgb(110, 208, 211));
+    margin-top: 300px;
+  }
 
   img {
     float: left;

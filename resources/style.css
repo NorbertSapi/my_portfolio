@@ -15,7 +15,8 @@
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: rgb(77, 76, 76);
+    /*background-color: rgb(77, 76, 76);*/
+    background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);
     text-align: center;
     color: white;
   }
@@ -220,14 +221,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);
+    /*background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);*/
     position: relative;
     z-index: -1;
   }
   .img_me{
     margin: 2rem;
     position: absolute;
-    z-index: 9;
+    z-index: -1;
     padding: 5px;
   }
 
@@ -341,7 +342,7 @@
   /* ABOUT SECTION */
 
   #container_about{
-    background-color: rgb(236, 235, 165);
+    /*background-color: rgb(236, 235, 165);*/
     min-height: 6rem;
     min-width: 100%;
   }
@@ -360,7 +361,7 @@
   }
   
   #green {
-    color: #1DBF73;
+    color: black;
   }
   
   #blue{
@@ -404,11 +405,13 @@
 }
 
 #cat_text{
-  margin: 10px auto 20px auto;
+  margin: 20px auto 20px auto;
   position: absolute;
+  z-index: -1;
 }
 
 .container_principles{
+  background-color: gray;
   font-size: 0.8rem;
   margin: 1rem;
   padding: 1rem;

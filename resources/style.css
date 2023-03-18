@@ -283,7 +283,7 @@
 
   @media only screen and (min-width: 600px) and (max-width: 800px) {
     .img_me img {
-      margin: 2rem 1rem;
+      margin: 1.5rem;
       width: 150px;
       height: auto;
     }

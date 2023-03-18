@@ -90,17 +90,3 @@ function showFortune(){
 }
 
 button.addEventListener('click', showFortune);
-
-  
-  /*
-  roshambo.getElementById("player").innerHTML = "Player has " + itemGeneratorPlayer();
-  roshambo.getElementById("bot").innerHTML = "Roshambot has " + itemGeneratorBot();
-  */
-  /*
-  button.innerHTML = 'Press here for the next game!';
-  button.style.cursor = 'default';
-  let winner;
-	if(random1 == random2){winner = "It is a draw.";}
-    else if(random1 == 0 && random2 == 1 || random1 == 1 && random2 == 2 || random1 == 2 && random2 == 0){winner = "The winner is You.";}
-    else{winner = "The winner is Roshambot.";}
-    return winner;*/

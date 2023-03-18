@@ -64,6 +64,7 @@
     justify-content: space-between;
     height: 100%;
     align-items: center;
+    z-index: 1;
   }
   .navbar-item {
     margin: 0.4em;
@@ -227,8 +228,6 @@
   }
   .img_me{
     margin: 2rem;
-    position: absolute;
-    z-index: -1;
     padding: 5px;
   }
 
@@ -282,12 +281,21 @@
     padding: 2rem 0;
   }
 
-  @media only screen and (min-width: 600px)  {
-    .img_me img{
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+    .img_me img {
+      margin: 2rem 1rem;
       width: 150px;
+      height: auto;
+    }
+  }
+
+  @media only screen and (min-width: 800px)  {
+    .img_me img{
+      width: 200px;
       height: auto;
       margin: 1.5rem 0;
     }
+
     h1 {
       font-size: 4rem;
     }

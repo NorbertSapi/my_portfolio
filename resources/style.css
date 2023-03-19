@@ -364,37 +364,22 @@
     font-size: 1rem;
   }
   
-  .about_text {
-    border: 3px solid yellow ;
-  }
-  
   #green {
     color: black;
-  }
-  
-  #blue{
-    color: blue;
+    display:block;
+    width: 350px;
+    margin: 1rem auto;
+    font-size: 1rem;
   }
 
   @media only screen and (min-width: 700px) {
-    .visiblity__button{
-      font-size: 2rem;
+    #green{
+      font-size: 1.5rem;
+      width: 670px;
     }
-  }
-
-  .unvisible__text {
-    display:block;
-  }
-
-  @media only screen and (min-width: 600px)  {
-    .unvisible__text {
-      display: none;
-      padding: 1rem;
+    .visiblity__button {
+      font-size: 1.5rem;
     }
-    
-    .visiblity__button:hover + .unvisible__text {
-      display: flex;
-    } 
   }
 
 /*********************************************************** PRINCIPLES ****************************************************************/

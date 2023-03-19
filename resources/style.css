@@ -420,14 +420,14 @@
   display: block;
 }
 
-#tryit {
+#big_cat {
   width: 150px;
   float: left;
   background-color: rgb(160, 159, 159);
   margin: 5px;
 }
   
-#tryit img {
+#big_cat img {
   width: 150px;
   height: auto;
 }
@@ -481,12 +481,12 @@ h4{
     padding: 2rem;
   }
 
-  #tryit{
+  #big_cat{
     margin: 5px 2rem;
     width: 200px;
   }
 
-  #tryit img {
+  #big_cat img {
     height: auto;
     width: 200px;
   }

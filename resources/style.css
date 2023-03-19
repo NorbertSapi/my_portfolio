@@ -404,18 +404,32 @@
   padding: 0.25rem auto;
 }
 
-.content {
+.content1,
+.content2 {
   margin: 1rem 0;
   border: 2px solid black;
-  width: 100%;
-  min-height: 250px;
   padding: 1rem;
 }
 
+.content1{
+  width: 100%;
+  min-height: 400px;
+}
+
 #cat_text{
-  margin: 20px auto 20px auto;
-  position: absolute;
-  z-index: -1;
+  display: block;
+}
+
+#tryit {
+  width: 150px;
+  float: left;
+  background-color: rgb(160, 159, 159);
+  margin: 5px;
+}
+  
+#tryit img {
+  width: 150px;
+  height: auto;
 }
 
 .container_principles{
@@ -427,15 +441,14 @@
 
 .chess{
   font-size: 1rem;
-  margin: 2rem 1.5rem auto;
+  margin: 5px;
 }
 
 
 .cat {
   float: left;
   width: 30%;
-  margin: 20px auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .life{
@@ -454,6 +467,29 @@ h4{
 .name-of-language{
   text-align: center;
   text-decoration: underline overline red 5px;
+}
+
+.life_lesson {
+  margin: 5px;
+  padding: 5px;
+  line-height: 1.6;
+}
+
+@media only screen and (min-width: 600px) {
+  .life_lesson{
+    line-height: 2;
+    padding: 2rem;
+  }
+
+  #tryit{
+    margin: 5px 2rem;
+    width: 200px;
+  }
+
+  #tryit img {
+    height: auto;
+    width: 200px;
+  }
 }
 
   /******** List for the work element ******/

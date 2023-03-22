@@ -222,7 +222,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /*background: linear-gradient(to bottom right, rgb(5, 129, 129), pink);*/
     position: relative;
     z-index: -1;
   }
@@ -382,6 +381,39 @@
     }
   }
 
+/********************************************************** SKILLS *****************************************************************/
+
+#skills{
+  margin: 2rem 0.2rem 1rem 4rem;
+  padding: 1rem 2rem;
+}
+
+#skills_container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               : 30px;
+}
+
+.skill_logo {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 700px) {
+  #skills_container {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    padding: 20px;
+    height: 6rem;
+  }
+}
+
+
 /*********************************************************** PRINCIPLES ****************************************************************/
 
 .small_tag {
@@ -477,14 +509,18 @@ h4{
   }
 }
 
-  /******** List for the work element ******/
+  /******** WORK SECTION ******/
 
+  #pop_up_left {
+    margin: 1rem;
+    padding: 1rem ;
+  }
 
   #work_list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     margin-top: 1rem;
     margin-left: auto;
@@ -504,6 +540,7 @@ h4{
   width: 60%;
   height: auto;
   cursor: pointer;
+  margin: 1rem;
 }
 
 /**************************** Contact ******************************/
